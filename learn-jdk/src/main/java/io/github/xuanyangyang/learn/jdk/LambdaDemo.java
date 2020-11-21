@@ -11,5 +11,7 @@ public class LambdaDemo {
 
     public static void main(String[] args) {
         LambdaDemo lambdaDemo = new LambdaDemo();
+        Runnable runnable = lambdaDemo::hello;
+        runnable.run();
     }
 }
