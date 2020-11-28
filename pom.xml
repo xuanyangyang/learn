@@ -11,6 +11,8 @@
     <modules>
         <module>learn-jdk</module>
         <module>learn-netty</module>
+        <module>learn-redis</module>
+        <module>learn-mysql</module>
     </modules>
 
     <properties>
